@@ -44,4 +44,19 @@
     z-index: 10;
 }
 /*SlideShow*/
+#slideShow{
+    text-align:center;
+}
+/*Pictures */
+.pictures{
+ width:400px;
+}
+/*About Us*/
+#aboutUs{
+    margin-top:50px;
+    border-top:3px solid #EDCFC4;
+    float:left;
+    padding:30px;
+}
+
 
