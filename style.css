@@ -1,0 +1,47 @@
+/*First Page Header*/
+#header{
+    text-align:center;
+}
+#banner{
+    background:#EDCFC4;
+    color: #B37358;
+    text-align: center;
+    padding:8px;
+}
+#logo{
+    height:150px;
+    margin:30px;
+}
+/*Navigation Bar*/
+.navigation {
+    background:white;
+    color: #9C817A;
+    text-align: center;
+    font-family: serif;
+    font-size: 18px;
+    height: 60px;
+    padding-right:20px;
+    padding-top:20px;
+    border-bottom: 3px solid #EDCFC4;
+    margin-bottom: 3px solid #F6D856 ;
+}
+#logo2{
+    height:40px;
+    position:relative;
+    left:0%;
+    margin-bottom:5px;
+}
+.menu{
+    margin-left:30px;
+}
+.content {
+    padding: 20px;
+} 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+/*SlideShow*/
+

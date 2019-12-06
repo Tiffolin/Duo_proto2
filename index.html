@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Duo Proto Design 2</title>
+<!-- Style CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         
+</head>
+<body>
+
+<div id="header">
+    <div id="banner">Call (905) 763-2232 to place an order</div>
+    <img id="logo" src="images/logo with transparent bg.png">
+</div>
+
+<div id="slideShow">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block img-fluid" src="images/pastries/1.PNG" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block img-fluid" src="images/pastries/3.PNG" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block img-fluid" src="images/seating.PNG" alt="Third slide">
+                  </div>
+                </div>
+        </div>
+</div>
+
+<div id="navbar" class="navigation">
+    <img id="logo2" src="images/DUO _logo2.jpg">
+    <span class="menu"><a href="#aboutus" style="color:#9C817A;">ABOUT</a></span>
+    <span class="menu"><a href="#cakes" style="color:#9C817A;">CAKES</a></span>
+    <span class="menu"><a href="#viennoiseries" style="color:#9C817A;">VIENNOISERIES</a></span>
+    <span class="menu"><a href="#drinks" style="color:#9C817A;">DRINKS</a></span>
+    <span class="menu"><a href="#location" style="color:#9C817A;">LOCATION</a></span>
+    <span class="menu"><a href="#career" style="color:#9C817A;">CAREER</a></span>
+</div>
+
+
+<div id="aboutUs"></div>
+<div id="cakes"></div>
+<div id="viennoiseries"></div>
+<div id="drinks"></div>
+<div id="location"></div>
+<div id="career"></div>
+<div id="insta">FOLLOW US @ </div>
+<div id="footer">
+    <div id="contact"></div>
+    <div id="payments"></div>
+    <div id="copyright">© 2019, Duo Patisserie & Cafe  designed by <a>TiffoLin</a></div>
+</div>
+
+
+    
+</body>
+<!-- JQuery -->
+<script src="https://code.jquery.com/jquery.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- header scroll -->
+<script>
+window.onscroll = function() {myFunction()};
+  
+  var header = document.getElementById("navbar");
+  var sticky = header.offsetTop;
+  
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
+  }
+
+</script>
+
+</html>
