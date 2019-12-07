@@ -1,16 +1,44 @@
+/*Background Rose Gold gradient*/
+.bgGradient{
+        background: linear-gradient(268deg, #edcfc4, #fefefe);
+        background-size: 400% 400%;
+        
+        -webkit-animation: AnimationName 30s ease infinite;
+        -moz-animation: AnimationName 30s ease infinite;
+        animation: AnimationName 30s ease infinite;
+        
+        @-webkit-keyframes AnimationName {
+            0%{background-position:0% 50%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 50%}
+        }
+        @-moz-keyframes AnimationName {
+            0%{background-position:0% 50%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 50%}
+        }
+        @keyframes AnimationName {
+            0%{background-position:0% 50%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 50%}
+        }
+}
 /*First Page Header*/
 #header{
     text-align:center;
 }
 #banner{
-    background:#EDCFC4;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(237,207,196));
+    /* background:#EDCFC4; */
     color: #B37358;
     text-align: center;
     padding:8px;
 }
 #logo{
-    height:150px;
+    height:100px;
     margin:30px;
+    border-radius:20px;
+    /* box-shadow: 0 30px 40px rgba(0,0,0,.1); */
 }
 /*Navigation Bar*/
 .navigation {
@@ -19,17 +47,18 @@
     text-align: center;
     font-family: serif;
     font-size: 18px;
-    height: 60px;
+    height: 80px;
     padding-right:20px;
     padding-top:20px;
+    padding-bottom:20px;
     border-bottom: 3px solid #EDCFC4;
-    margin-bottom: 3px solid #F6D856 ;
+
 }
 #logo2{
-    height:40px;
+    height:60px;
     position:relative;
-    left:0%;
-    margin-bottom:5px;
+    margin-right:25%;
+    margin-bottom:10px;
 }
 .menu{
     margin-left:30px;
@@ -46,17 +75,56 @@
 /*SlideShow*/
 #slideShow{
     text-align:center;
+    /* height:100vw; */
+    margin-bottom:10%;
 }
-/*Pictures */
-.pictures{
- width:400px;
+/* Page Titles */
+.pageTitle{
+    color: #9C817A;
+    text-align: center;
+    font-family: serif;
+    font-size: 25px;
 }
 /*About Us*/
 #aboutUs{
     margin-top:50px;
+    margin-bottom:50px;
     border-top:3px solid #EDCFC4;
     float:left;
     padding:30px;
 }
-
-
+/*Cake */
+.card-text{
+    text-align:center;
+}
+#cakes{
+    margin-bottom:10%;
+}
+/*Viennoiseries */
+#pastryWrapper{
+float:right;
+}
+.btn{
+    background-color:white;
+    color:#9C817A;
+    margin:10px;
+    width: 160px;
+}
+.viennoiseriesPic{
+    margin-top:20px;
+}
+/*Pastry Modals */
+.pictures{
+    width:400px;
+    border-radius: 5px;
+    margin-left:8%;
+   }
+.descriptions{
+    text-align:center;
+}
+.pastryName{
+    text-align:center;
+}
+.modal-header{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(237,207,196));
+}

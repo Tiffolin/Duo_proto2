@@ -15,12 +15,12 @@
 </head>
 <body>
 
-<div id="header">
-    <div id="banner">Call (905) 763-2232 to place an order</div>
-    <img id="logo" src="images/logo with transparent bg.png">
+<div id="header" class="bgGradient">
+    <div id="banner" >Call (905) 763-2232 to place an order</div>
+    <img id="logo" class="bgGradient" src="images/transparentLogo2.png">
 </div>
 
-<div id="slideShow" class="row justify-content-md-center">
+<div id="slideShow" class="row justify-content-md-center bgGradient">
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active ">
@@ -37,7 +37,7 @@
 </div>
 
 <div id="navbar" class="navigation">
-    <img id="logo2" src="images/DUO _logo2.jpg">
+    <a href="#"><img id="logo2" src="images/DUO _logo2.jpg"></a>
     <span class="menu"><a href="#aboutus" style="color:#9C817A;">ABOUT</a></span>
     <span class="menu"><a href="#cakes" style="color:#9C817A;">CAKES</a></span>
     <span class="menu"><a href="#viennoiseries" style="color:#9C817A;">VIENNOISERIES</a></span>
@@ -47,7 +47,7 @@
 </div>
 
 <div id="aboutUs" class="row justify-content-md-center">
-    <img class="pictures col-6" src="images/boss3.PNG" >
+    <img class="pictures2 col-6" src="images/boss3.PNG" >
     <div class="col-6">Lorem ipsum dolor sit amet, consectetur 
             adipiscing elit, sed do eiusmod tempor 
             incididunt ut labore et dolore magna 
@@ -63,8 +63,777 @@
     </div>
 </div>
 
-<div id="cakes"></div>
-<div id="viennoiseries"></div>
+<div id="cakes" class="row justify-content-md-center">
+        <p class="pageTitle col-12">CAKES</p>
+
+        <a href="#" class="col-4 row" style="width: 22rem;">
+            <div>
+                <img src="images/cakes/sampleImg/2.PNG" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text" style="color:#9C817A;">Whole Cakes</p>
+                </div>
+            </div>
+        </a>
+        <div class="col-1" style="width: 22rem;">
+                <div class="card-body">
+                  <p class="card-text"></p>
+                </div>
+        </div>
+        <a href="#"  class="col-4" style="width: 22rem;">
+            <div>
+                <img src="images/cakes/sampleImg/1.PNG" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text" style="color:#9C817A;">Individual Cakes</p>
+                </div>
+            </div>
+        </a>
+</div>
+
+
+<div id="viennoiseries" class="col-12">
+    <p class="pageTitle col-12">VIENNOISERIES</p>
+
+    <img class="viennoiseriesPic col-6" src="images/pastries/6.PNG" >
+
+    <div id="pastryWrapper" class="col-6">
+        <!-- PLAIN CROISSANT -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-toggle="modal" data-target="#plain">
+                Plain Croissant
+        </button>
+            <!-- Modal -->
+            <div class="modal fade" id="plain" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Plain Croissant</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="pictures" src="images/pastries/empty.png" >
+                        <p class="descriptions">Description</p>
+                    </div>
+                    <!-- <div class="modal-footer">
+                    <button type="button" class="btn" style="color:white; background-color:#EDCFC4" data-dismiss="modal">Close</button>
+                    </div> -->
+                </div>
+                </div>
+            </div>
+        <!-- ROAST BEEF CROISSANT -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-toggle="modal" data-target="#roastbeef">
+                Roast Beef
+        </button>
+            <!-- Modal -->
+            <div class="modal fade" id="roastbeef" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Roast Beef Croissant</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="pictures" src="images/pastries/empty.png" >
+                        <p class="descriptions">Description</p>
+                    </div>
+                    <!-- <div class="modal-footer">
+                    <button type="button" class="btn" style="color:white; background-color:#EDCFC4" data-dismiss="modal">Close</button>
+                    </div> -->
+                </div>
+                </div>
+            </div>
+        <!-- HAM&CHEESE -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-toggle="modal" data-target="#hamcheese">
+                Ham & Cheese
+        </button>
+            <!-- Modal -->
+            <div class="modal fade" id="hamcheese" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Ham & Cheese Croissant</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="pictures" src="images/pastries/empty.png" >
+                        <p class="descriptions">Description</p>
+                    </div>
+                    <!-- <div class="modal-footer">
+                    <button type="button" class="btn" style="color:white; background-color:#EDCFC4" data-dismiss="modal">Close</button>
+                    </div> -->
+                </div>
+                </div>
+            </div>
+        <!-- SALAMI & CHEESE CROISSANT -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-toggle="modal" data-target="#salami">
+                Salami & Cheese
+        </button>
+            <!-- Modal -->
+            <div class="modal fade" id="salami" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Salami & Cheese Croissant</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="pictures" src="images/pastries/empty.png" >
+                        <p class="descriptions">Description</p>
+                    </div>
+                    <!-- <div class="modal-footer">
+                    <button type="button" class="btn" style="color:white; background-color:#EDCFC4" data-dismiss="modal">Close</button>
+                    </div> -->
+                </div>
+                </div>
+            </div>
+
+        <!-- PAN AU CHOCOLATE -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-toggle="modal" data-target="#panaucocolate">
+                Pan Au Chocolate
+        </button>
+            <!-- Modal -->
+            <div class="modal fade" id="panaucocolate" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Pan Au Chocolate</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="pictures" src="images/pastries/empty.png" >
+                        <p class="descriptions">Description</p>
+                    </div>
+                    <!-- <div class="modal-footer">
+                    <button type="button" class="btn" style="color:white; background-color:#EDCFC4" data-dismiss="modal">Close</button>
+                    </div> -->
+                </div>
+                </div>
+            </div>
+        <!-- ALMOND CROISSANT -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-toggle="modal" data-target="#almond">
+                Almond Croissant
+        </button>
+            <!-- Modal -->
+            <div class="modal fade" id="almond" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Almond Croissant</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="pictures" src="images/pastries/empty.png" >
+                        <p class="descriptions">Description</p>
+                    </div>
+                    <!-- <div class="modal-footer">
+                    <button type="button" class="btn" style="color:white; background-color:#EDCFC4" data-dismiss="modal">Close</button>
+                    </div> -->
+                </div>
+                </div>
+            </div>
+        <!-- ALMOND CHOCOLATE -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-toggle="modal" data-target="#almondchoco">
+                Almond Chocolate
+        </button>
+            <!-- Modal -->
+            <div class="modal fade" id="almondchoco" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Almond Chocolate Croissant</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="pictures" src="images/pastries/empty.png" >
+                        <p class="descriptions">Description</p>
+                    </div>
+                    <!-- <div class="modal-footer">
+                    <button type="button" class="btn" style="color:white; background-color:#EDCFC4" data-dismiss="modal">Close</button>
+                    </div> -->
+                </div>
+                </div>
+            </div>
+        <!-- POLONAISE -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-toggle="modal" data-target="#polonaise">
+                Polonaise
+        </button>
+            <!-- Modal -->
+            <div class="modal fade" id="polonaise" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">POLONAISE</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="pictures" src="images/pastries/empty.png" >
+                        <p class="descriptions">Description</p>
+                    </div>
+                    <!-- <div class="modal-footer">
+                    <button type="button" class="btn" style="color:white; background-color:#EDCFC4" data-dismiss="modal">Close</button>
+                    </div> -->
+                </div>
+                </div>
+            </div>
+
+        <!-- CANELLE -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-toggle="modal" data-target="#Canelle">
+                Canelle
+        </button>
+            <!-- Modal -->
+            <div class="modal fade" id="Canelle" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle" style="text-align:center;">Canelle</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="pictures" src="images/pastries/canelle.PNG" >
+                        <p class="descriptions">Canelle Description</p>
+                    </div>
+                    <!-- <div class="modal-footer">
+                    <button type="button" class="btn" style="color:white; background-color:#EDCFC4" data-dismiss="modal">Close</button>
+                    </div> -->
+                </div>
+                </div>
+            </div>
+
+        <!-- GATEAU BASQUE -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-toggle="modal" data-target="#GB">
+                Gateau Basque
+        </button>
+            <!-- Modal -->
+            <div class="modal fade" id="GB" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Gateau Basque</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="pictures" src="images/pastries/empty.png" >
+                        <p class="descriptions">Description</p>
+                    </div>
+                    <!-- <div class="modal-footer">
+                    <button type="button" class="btn" style="color:white; background-color:#EDCFC4" data-dismiss="modal">Close</button>
+                    </div> -->
+                </div>
+                </div>
+            </div>
+        <!-- FRANGIPANE -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-toggle="modal" data-target="#frangipane">
+                Frangipane
+        </button>
+            <!-- Modal -->
+            <div class="modal fade" id="frangipane" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Frangipane</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="pictures" src="images/pastries/empty.png" " >
+                        <p class="descriptions">Description</p>
+                    </div>
+                    <!-- <div class="modal-footer">
+                    <button type="button" class="btn" style="color:white; background-color:#EDCFC4" data-dismiss="modal">Close</button>
+                    </div> -->
+                </div>
+                </div>
+            </div>
+        <!-- CHESTNUT TART -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-toggle="modal" data-target="#chestnut">
+                Chestnut Tart
+        </button>
+            <!-- Modal -->
+            <div class="modal fade" id="chestnut" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Chestnut Tart</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="pictures" src="images/pastries/empty.png" >
+                        <p class="descriptions">Description</p>
+                    </div>
+                    <!-- <div class="modal-footer">
+                    <button type="button" class="btn" style="color:white; background-color:#EDCFC4" data-dismiss="modal">Close</button>
+                    </div> -->
+                </div>
+                </div>
+            </div>
+        <!-- BANANE -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-toggle="modal" data-target="#banane">
+                Banane
+        </button>
+            <!-- Modal -->
+            <div class="modal fade" id="banane" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Banane</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="pictures" src="images/pastries/empty.png" >
+                        <p class="descriptions">Description</p>
+                    </div>
+                    <!-- <div class="modal-footer">
+                    <button type="button" class="btn" style="color:white; background-color:#EDCFC4" data-dismiss="modal">Close</button>
+                    </div> -->
+                </div>
+                </div>
+            </div>
+        <!-- RASPBERRY ROSE -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-toggle="modal" data-target="#Raspberry">
+                Raspberry Rose
+        </button>
+            <!-- Modal -->
+            <div class="modal fade" id="Raspberry" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Raspberry Rose</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="pictures" src="images/pastries/RASPBERRY ROSE.PNG" >
+                        <p class="descriptions">Description</p>
+                    </div>
+                    <!-- <div class="modal-footer">
+                    <button type="button" class="btn" style="color:white; background-color:#EDCFC4" data-dismiss="modal">Close</button>
+                    </div> -->
+                </div>
+                </div>
+            </div>
+        <!-- APPLE CROISSANT -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-toggle="modal" data-target="#apple">
+                Apple Croissant
+        </button>
+            <!-- Modal -->
+            <div class="modal fade" id="apple" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Apple Croissant</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="pictures" src="images/pastries/empty.png" >
+                        <p class="descriptions">Description</p>
+                    </div>
+                    <!-- <div class="modal-footer">
+                    <button type="button" class="btn" style="color:white; background-color:#EDCFC4" data-dismiss="modal">Close</button>
+                    </div> -->
+                </div>
+                </div>
+            </div>
+        <!-- 8 (VANILLA CUSTARD) -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-toggle="modal" data-target="#8">
+                8 (vanilla custart)
+        </button>
+            <!-- Modal -->
+            <div class="modal fade" id="8" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">8 (Vanilla Custard)</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="pictures" src="images/pastries/empty.png" >
+                        <p class="descriptions">Description</p>
+                    </div>
+                    <!-- <div class="modal-footer">
+                    <button type="button" class="btn" style="color:white; background-color:#EDCFC4" data-dismiss="modal">Close</button>
+                    </div> -->
+                </div>
+                </div>
+            </div>
+        <!-- HONEY TWIST -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-toggle="modal" data-target="#Honey">
+                Honey Twist
+        </button>
+            <!-- Modal -->
+            <div class="modal fade" id="Honey" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Honey Twist</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="pictures" src="images/pastries/honey twist.PNG" >
+                        <p class="descriptions">Honey Twist Description</p>
+                    </div>
+                    <!-- <div class="modal-footer">
+                    <button type="button" class="btn" style="color:white; background-color:#EDCFC4" data-dismiss="modal">Close</button>
+                    </div> -->
+                </div>
+                </div>
+            </div>
+
+        <!-- CHOCOLATE BOOK -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-toggle="modal" data-target="#chocobook">
+                Chocolate Book
+        </button>
+            <!-- Modal -->
+            <div class="modal fade" id="chocobook" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Chocolate BOOK</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="pictures" src="images/pastries/empty.png" >
+                        <p class="descriptions">Description</p>
+                    </div>
+                    <!-- <div class="modal-footer">
+                    <button type="button" class="btn" style="color:white; background-color:#EDCFC4" data-dismiss="modal">Close</button>
+                    </div> -->
+                </div>
+                </div>
+            </div>
+        <!-- MATCHA BOOK -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-toggle="modal" data-target="#matchabook">
+                Matcha Book
+        </button>
+            <!-- Modal -->
+            <div class="modal fade" id="matchabook" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Matcha BOOK</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="pictures" src="images/pastries/empty.png" >
+                        <p class="descriptions">Description</p>
+                    </div>
+                    <!-- <div class="modal-footer">
+                    <button type="button" class="btn" style="color:white; background-color:#EDCFC4" data-dismiss="modal">Close</button>
+                    </div> -->
+                </div>
+                </div>
+            </div>
+        <!-- BICHON -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-toggle="modal" data-target="#bichon">
+                Bichon
+        </button>
+            <!-- Modal -->
+            <div class="modal fade" id="bichon" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Bichon</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="pictures" src="images/pastries/empty.png" >
+                        <p class="descriptions">Description</p>
+                    </div>
+                    <!-- <div class="modal-footer">
+                    <button type="button" class="btn" style="color:white; background-color:#EDCFC4" data-dismiss="modal">Close</button>
+                    </div> -->
+                </div>
+                </div>
+            </div>
+        <!-- TROPIZIENNE -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-toggle="modal" data-target="#trop">
+                Tropizienne
+        </button>
+            <!-- Modal -->
+            <div class="modal fade" id="trop" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Tropizienne</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="pictures" src="images/pastries/empty.png" >
+                        <p class="descriptions">Description</p>
+                    </div>
+                    <!-- <div class="modal-footer">
+                    <button type="button" class="btn" style="color:white; background-color:#EDCFC4" data-dismiss="modal">Close</button>
+                    </div> -->
+                </div>
+                </div>
+            </div>
+
+        <!-- CITRUS BRIOCHE -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-toggle="modal" data-target="#citrus">
+                Citrus Brioche
+        </button>
+            <!-- Modal -->
+            <div class="modal fade" id="citrus" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Citrus Brioche</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="pictures" src="images/pastries/empty.png" >
+                        <p class="descriptions">Description</p>
+                    </div>
+                    <!-- <div class="modal-footer">
+                    <button type="button" class="btn" style="color:white; background-color:#EDCFC4" data-dismiss="modal">Close</button>
+                    </div> -->
+                </div>
+                </div>
+            </div>
+        <!-- CINNAMON & RAISON BRIOCHE -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-toggle="modal" data-target="#cinnamon">
+                Cinnamon & Raison 
+                
+        </button>
+            <!-- Modal -->
+            <div class="modal fade" id="cinnamon" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Cinnamon & Raison Brioche</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="pictures" src="images/pastries/empty.png">
+                        <p class="descriptions">Description</p>
+                    </div>
+                    <!-- <div class="modal-footer">
+                    <button type="button" class="btn" style="color:white; background-color:#EDCFC4" data-dismiss="modal">Close</button>
+                    </div> -->
+                </div>
+                </div>
+            </div>
+        <!-- BLACK SESAME BRIOCHE -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-toggle="modal" data-target="#blacksesame">
+                Black Sesame Brioche
+        </button>
+            <!-- Modal -->
+            <div class="modal fade" id="blacksesame" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Black Sesame Brioche</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="pictures" src="images/pastries/empty.png" >
+                        <p class="descriptions">Description</p>
+                    </div>
+                    <!-- <div class="modal-footer">
+                    <button type="button" class="btn" style="color:white; background-color:#EDCFC4" data-dismiss="modal">Close</button>
+                    </div> -->
+                </div>
+                </div>
+            </div>
+        <!-- PISTACHIO BRIOCHE -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-toggle="modal" data-target="#pistachio">
+                Pistachio Brioche
+        </button>
+            <!-- Modal -->
+            <div class="modal fade" id="pistachio" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Pistachio</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="pictures" src="images/pastries/empty.png" >
+                        <p class="descriptions">Description</p>
+                    </div>
+                    <!-- <div class="modal-footer">
+                    <button type="button" class="btn" style="color:white; background-color:#EDCFC4" data-dismiss="modal">Close</button>
+                    </div> -->
+                </div>
+                </div>
+            </div>
+        <!-- CHEDDAR GRYERE -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-toggle="modal" data-target="#cheddar">
+                Cheddar Gryere
+        </button>
+            <!-- Modal -->
+            <div class="modal fade" id="cheddar" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Cheddar Gryere</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="pictures" src="images/pastries/empty.png" >
+                        <p class="descriptions">Description</p>
+                    </div>
+                    <!-- <div class="modal-footer">
+                    <button type="button" class="btn" style="color:white; background-color:#EDCFC4" data-dismiss="modal">Close</button>
+                    </div> -->
+                </div>
+                </div>
+            </div>
+        <!-- BRIOCHE LOAF -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-toggle="modal" data-target="#loaf">
+                Brioche Loaf
+        </button>
+            <!-- Modal -->
+            <div class="modal fade" id="loaf" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Brioche Load</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="pictures" src="images/pastries/empty.png" >
+                        <p class="descriptions">Description</p>
+                    </div>
+                    <!-- <div class="modal-footer">
+                    <button type="button" class="btn" style="color:white; background-color:#EDCFC4" data-dismiss="modal">Close</button>
+                    </div> -->
+                </div>
+                </div>
+            </div>
+        <!-- BRIOCHE TETE -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-toggle="modal" data-target="#tete">
+                Brioche Tete
+        </button>
+            <!-- Modal -->
+            <div class="modal fade" id="Honey" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Brioche Tete</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="pictures" src="images/pastries/empty.png" >
+                        <p class="descriptions">Description</p>
+                    </div>
+                    <!-- <div class="modal-footer">
+                    <button type="button" class="btn" style="color:white; background-color:#EDCFC4" data-dismiss="modal">Close</button>
+                    </div> -->
+                </div>
+                </div>
+            </div>
+        <!-- QUICHE -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-toggle="modal" data-target="#quiche">
+                Quiche
+        </button>
+            <!-- Modal -->
+            <div class="modal fade" id="quiche" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Quiche</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="pictures" src="images/pastries/empty.png" >
+                        <p class="descriptions">Description</p>
+                    </div>
+                    <!-- <div class="modal-footer">
+                    <button type="button" class="btn" style="color:white; background-color:#EDCFC4" data-dismiss="modal">Close</button>
+                    </div> -->
+                </div>
+                </div>
+            </div>
+
+
+
+    </div>
+
+</div>
+
 <div id="drinks"></div>
 <div id="location"></div>
 <div id="career"></div>
