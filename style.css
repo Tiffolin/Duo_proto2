@@ -1,6 +1,6 @@
 /*Background Rose Gold gradient*/
 .bgGradient{
-        background: linear-gradient(268deg, #edcfc4, #fefefe);
+        /* background: linear-gradient(268deg, #edcfc4, #fefefe);
         background-size: 400% 400%;
         
         -webkit-animation: AnimationName 30s ease infinite;
@@ -21,23 +21,68 @@
             0%{background-position:0% 50%}
             50%{background-position:100% 50%}
             100%{background-position:0% 50%}
-        }
+        } */
+
+/* /////////////////////////////////////////////////// */
+    background: linear-gradient(91deg, #f0ddce, #f1d3c9, #c48a73, #e9d8d3, #edc9bd, #b07259, #d8a999);
+    background-size: 1400% 1400%;
+
+    -webkit-animation: AnimationName 6s ease infinite;
+    animation: AnimationName 6s ease infinite;
+
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 51%}
+        100%{background-position:0% 50%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 51%}
+        100%{background-position:0% 50%}
+    }
 }
 /*First Page Header*/
 #header{
     text-align:center;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:7%;
 }
 #banner{
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(237,207,196));
+    /* background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(237,207,196)); */
+    /* background-image: linear-gradient(to left, rgba(196,138,115), rgba(250,207,196)); */
     /* background:#EDCFC4; */
-    color: #B37358;
+    /* color: #B37358; */
+    color:white;
     text-align: center;
     padding:8px;
+/* 
+    background: linear-gradient(45deg, #f0ddce, #f1d3c9, #c48a73, #e9d8d3, #edc9bd, #b07259, #d8a999);
+    background-size: 1400% 1400%;
+    
+    -webkit-animation: AnimationName 2s ease infinite;
+    animation: AnimationName 2s ease infinite;
+    
+    @-webkit-keyframes AnimationName {
+        0%{background-position:91% 0%}
+        50%{background-position:10% 100%}
+        100%{background-position:91% 0%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:91% 0%}
+        50%{background-position:10% 100%}
+        100%{background-position:91% 0%}
+    } */
+    
 }
 #logo{
-    height:100px;
+    position: absolute;
+    top:3%;
+    z-index:1;
+    height:120px;
     margin:30px;
     border-radius:20px;
+    opacity:0.7;
     /* box-shadow: 0 30px 40px rgba(0,0,0,.1); */
 }
 /*Navigation Bar*/
@@ -51,7 +96,7 @@
     padding-right:20px;
     padding-top:20px;
     padding-bottom:20px;
-    border-bottom: 3px solid #EDCFC4;
+    border-bottom: 2px solid #EDCFC4;
 
 }
 #logo2{
@@ -73,32 +118,58 @@
     z-index: 10;
 }
 /*SlideShow*/
+/* #firstWrapper{
+    position: relative;
+} */
 #slideShow{
+    position: relative;
     text-align:center;
     /* height:100vw; */
-    margin-bottom:10%;
+    margin:0;
+    padding:0;
+    border:0;
+    opacity:0.8;
 }
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.d-block{
+    width:100vw;
+}
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* Page Titles */
 .pageTitle{
     color: #9C817A;
     text-align: center;
     font-family: serif;
     font-size: 25px;
+    padding-bottom:20px;
+}
+.sections{
+margin-top:10%;
+margin-bottom:10%;
 }
 /*About Us*/
 #aboutUs{
-    margin-top:50px;
     margin-bottom:50px;
     border-top:3px solid #EDCFC4;
     float:left;
     padding:30px;
 }
+.info{
+    margin-top:10%;
+
+}
 /*Cake */
 .card-text{
     text-align:center;
 }
+a:hover {
+    color: #9C817A;
+}
 #cakes{
     margin-bottom:10%;
+}
+.cakeIMG{
+    padding:20px;
 }
 /*Viennoiseries */
 #pastryWrapper{
@@ -109,6 +180,9 @@ float:right;
     color:#9C817A;
     margin:10px;
     width: 160px;
+}
+.btn:hover {
+    border-bottom:solid 1px #9C817A;
 }
 .viennoiseriesPic{
     margin-top:20px;
@@ -127,4 +201,96 @@ float:right;
 }
 .modal-header{
     background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(237,207,196));
+}
+
+/*Drinks */
+#drinks{
+    padding-top:10%;
+}
+#drinkMenu{
+    padding-left:15%;
+}
+/*LOCATION & HOURS */
+#interior{
+    position: relative;
+}
+#locationsWrapper{
+    position: absolute;
+    top:20%;
+    right:15%;
+    z-index:1;
+    background:white;
+    padding:50px;
+}
+.address{
+    font-size:15px; 
+    font-family:serif;
+    text-align:center;
+}
+#hoursWrapper{
+    margin-top:20%;
+    margin-bottom:20%;
+}
+
+.hours{
+    padding-left:30%;
+    font-size:15px; 
+    font-family:serif;
+    padding-top:0;
+    padding-bottom:0;
+    margin-top: top 0;
+    margin-bottom:0;
+}
+
+#directions {
+    border:solid 1px #9C817A;
+    color: #9C817A;
+    text-align:center;
+    padding:5px;
+    margin:10px;
+    margin-top:10%;
+    margin-bottom:10%;
+    position:relative;
+    left:25%;
+    /* border: 0 solid; */
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    outline: 1px solid;
+    outline-color: rgba(255, 255, 255, .5);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+} 
+
+#directions:hover {
+  border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388; 
+}
+
+#insta{
+    margin-bottom:20px;
+    padding-bottom:20px;
+    padding-top:30px;
+    border-top:solid 1px #F9F0EC;
+}
+.instapics{
+height:200px;
+width:200px;
+padding:0;
+border:0;
+margin:0;
+}
+
+#footer{
+    margin-bottom:10px;
+    border-top:solid 1px #EDCFC4;
+}
+#footerImg{
+    width:100vw;
+}
+#copyright{
+    font-size:12px;
+    font-family:serif;
 }
